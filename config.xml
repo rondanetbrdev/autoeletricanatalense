@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="br.net.ronda.autoeletricanatalense" version="1.0.1" versionCode="1">
-  <name>ICMatus</name>
-  <description>Auto Elétrica Natalense</description>
+  <name>Auto Elétrica Natalense</name>
+  <description>App Serviços Auto Elétrica Natalense</description>
   <author href="http://www.ronda.net.br" email="ronaldo@ronda.net.br">rondanetbr</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
