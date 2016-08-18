@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="br.net.ronda.autoeletricanatalense" version="1.0.1" versionCode="1">
   <name>ICMatus</name>
-  <description>Auto Eletrica Natalense</description>
+  <description>Auto Elétrica Natalense</description>
   <author href="http://www.ronda.net.br" email="ronaldo@ronda.net.br">rondanetbr</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
@@ -37,7 +37,7 @@
   <plugin name="cordova-plugin-network-information"/>
   <plugin name="cordova-plugin-splashscreen"/>
   <plugin name="cordova-plugin-vibration"/>
-  
+
   <plugin name="cordova-plugin-whitelist" spec="1" />
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
