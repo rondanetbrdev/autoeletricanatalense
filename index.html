@@ -1,474 +1,393 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>Auto elétrica Natalense</title>
-    <!-- Path to Framework7 Library CSS-->
-    <link rel="stylesheet" href="css/framework7.ios.min.css">
-    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+<!doctype html>
+<html lang="pt-BR">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="fonts/font_awesome/css/font-awesome.min.css" />
-    <!-- Font ionicons -->
-    <link rel="stylesheet" type="text/css" href="fonts/ionicons/css/ionicons.min.css" />
+  <head>  	
+  	<meta charset="utf-8">
+    <meta name="description" content="Rondanetbr">
+    <meta name="keywords" content="Criamos aplicativos android e iOS. Desenvolvimento de aplicativos e websites, aplicativo, website, site, portal, internet, android, iOS, iphone, apple, criação de aplicativo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Rondanetbr">
+      
+    <!-- Metatag Facebook -->
+    
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="http://www.ronda.net.br">
+    <meta property="og:site_name" content="Rondanetbr">
+    <meta property="og:title" content="Criamos aplicativos para android e iOS">
+    <meta property="og:image" content="http://www.ronda.net.br/banner/logo-ronda.png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="600">
+    <meta property="og:description" content="Criamos aplicativos e websites em Natal. Android e iOS. Criamos websites. Acesse nosso site e solicite um orçamento.">  
+    <meta property="og:type" content="website">
+      
+    <meta name="googlebot" content="noodp"> <meta name="robots" content="index, follow">
+		
+		
+    <title>Rondanetbr</title>
 
-    <!-- Path to your custom app styles-->
-    <link rel="stylesheet" href="css/app.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="fonts/font-awesome.min.css" type="text/css" media="screen">
+    <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+    <link href="css/material.min.css" rel="stylesheet">
+    <link href="css/ripples.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
   </head>
+
   <body>
 
-
-       <!-- Status bar overlay for fullscreen mode-->
-      <div class="statusbar-overlay"></div>
-      <!-- Panels overlay-->
-      <div class="panel-overlay"></div>
-
-
-
-
-
- 
-<!-- TABS start -->
- 
-<!-- Tabs, now tabs wrapper is "views" -->
-
-<div class="views tabs toolbar-fixed">
-        
-  <!-- Tab Inicio - View 1 -->
-  <div id="tabInicio" class="view tab active">
-    <div class="navbar" style="background-color: #233792">
-      <div class="navbar-inner">
-        <div class="center" style="color: #fff">Início</div>
+    <div class="navbar navbar-invers menu-wrap">
+      <div class="navbar-header text-center">
+        <a class="navbar-brand logo-right" href="javascript:void(0)"></a>
       </div>
+        <ul class="nav navbar-nav main-navigation">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#aplicativo">Precisando de um aplicativo?</a></li>
+          <li><a href="#website">Precisando de um site?</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+        <button class="close-button" id="close-button">Close Menu</button>
     </div>
-    <div class="pages navbar-fixed">
-      <div data-page="home-1" class="page">
-        
-        <div class="page-content" >
-          <div style="width: 100%; margin: 18px quto; text-align: center">
-            <img src="img/promocoes.png" style="width: 94%;" />
-          </div>
-          
-          <div class="card">
-              <div class="card-header" style="background-color: #FCE879; color: #red; text-align: left; font-weight: 700">Velas de Ignição BOSCH</div>
-              <div class="card-content">
-                  <div class="card-content-inner">
-                    
-                  <img src="img/pecas_01.jpg" style="width: 100%" />  
-                  </div>
-              </div>
-              <div class="card-footer" style="font-weight: 700">R$ 99,00 à vista ou 10x nos cartões VISA e MASTER</div>
-          </div>
-          
-           <div class="card">
-              <div class="card-header" style="background-color: #FCE879; text-align: left; font-weight: 700">Bobinas BOSCH</div>
-              <div class="card-content">
-                  <div class="card-content-inner">
-                   
-                  <img src="img/pecas_02.jpg" style="width: 100%" />
-                  </div>
-              </div>
-              <div class="card-footer" style="font-weight: 700">R$ 99,00 à vista ou 10x nos cartões VISA e MASTER</div>
-          </div>
-           
-           <div class="card">
-              <div class="card-header" style="background-color: #FCE879; text-align: center; font-weight: 700">ALTERNADOR CELTA 1.0/1.4 VHC VALEO 70A</div>
-              <div class="card-content">
-                  <div class="card-content-inner">
-                   
-                  <img src="img/pecas_03.jpg" style="width: 100%" />  
-                  </div>
-              </div>
-              <div class="card-footer" style="font-weight: 700">R$ 299,00 à vista ou 10x nos cartões VISA e MASTER</div>
-          </div> 
-
-          
-          
-          
-        </div>  
-        
-      </div>
-    </div>
-  </div>
-  
-  
-
-        
-  <!-- Tab veiculo - View 2 -->
-  <div id="tabVeiculo" class="view tab">
-    <div class="navbar" style="background-color: #233792">
-      <div class="navbar-inner">
-        <div class="center" style="color: #fff">Pesquisar veículo</div>
-      </div>
-    </div>
-    <div class="pages navbar-fixed">
-      <div data-page="home-2" class="page">
-        
-        <div class="page-content" style="text-align: center">
-          
-          
-          <div class="card">
-              <div class="card-header">Informe a placa do veículo ou CPF do cliente para acompanhar a evolução do serviço. Digite sem espaço, pontos ou traços.</div>
-              <div class="card-content">
-                  <div class="card-content-inner"><input type="text" id="veiculoPlaca" style="width: 90%; font-size: 24px; text-align: center;" />
-            <a href="#tabVeiculoResultado" class="tab-link button button-big button-round" onclick="fecharCarregandoVeiculo()" style="margin: 16px 0;">Pesquisar <i class="icon fa fa-search"></i></a></div>
-              </div>
-          </div>
-
-
-          
-        
-        </div>  
-        
-      </div>
-    </div>
-  </div>
-  
-  
-  
-  <!-- Tab Servicos - View 3 -->
-  <div id="tabServicos" class="view tab">
-    <div class="navbar" style="background-color: #233792">
-      <div class="navbar-inner">
-        <div class="center" style="color: #fff">Serviços</div>
-      </div>
-    </div>
-    <div class="pages navbar-fixed">
-      <div data-page="home-3" class="page">
-        
-        <div class="page-content" >
-
-          <h3 class="destaque">ELÉTRICA OU MECÂNICA,<br />A GENTE ENTENDE!</h3>
-          <div style="margin: 0 auto; width: 100%; text-align: center">
-            <img src="img/aen_servicos01.jpg" style="width: 96%" />
-          </div>
-          
-          <div class="content-block-title">Trabalhamos com:</div>
-          
-          
-          <div class="list-block">
-            <ul>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Motor de Partida</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Alternador</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Injeção Eletrônica</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Alarme</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Travas de Porta</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Freios em ABS</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Air Bag</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Freios em Geral</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Arrefecimento</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Troca de Óleo</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Alinhamento</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Balanceamento</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Sensor de Estacionamento</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Regulagem de Faróis</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-media"><i class="icon fa fa-check-circle"></i></div>
-              <div class="item-inner">
-                <div class="item-title">Diagnóstico Computadorizado<br />de Última Geração</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-          
-        <div class="content-block-title">PRODUTOS</div>
-        
-        <img src="img/pecas-de-carros.jpg" style="width: 100%" />
-          <p style="padding: 0 12px">Dispomos de um vasto estoque distribuído nas nossas quatro lojas localizadas na Grande Natal.</p>
-  
-          <p style="padding: 0 12px">Temos um setor logístico conectado com o que há de mais moderno no estado do Rio Grande do Norte fazendo com que os processos sejam ágeis e eficientes, para que o cliente se sinta realizado ao adquirir nossos produtos e serviços.</p>
-          
-          
-        </div>
-        
-        
-        
-      </div>
-    </div>
-  </div>
-  
-  
-  
-  <!-- Tab Lojas - View 4 -->
-  <div id="tabLojas" class="view tab">
-    <div class="navbar" style="background-color: #233792">
-      <div class="navbar-inner">
-        <div class="center" style="color: #fff">Lojas</div>
-      </div>
-    </div>
-    <div class="pages navbar-fixed">
-      <div data-page="home-4" class="page">
-        
-        <div class="page-content">
-
-          <div class="card">
-              <div class="card-header">Loja Matriz</div>
-              <div class="card-content">
-                  <div class="card-content-inner" style="color: #333">
-                    <img src="img/aen_loja1.png" style="width: 100%" />
-                    Rua Pte. José Bento, 427 Alecrim - Cep:59037-060 Natal-RN
-                    <span style="display: block; font-size: 20px"><i class="icon fa fa-phone"></i> (84) 3213-1949</span>
-                  </div>
-              </div>
-              <div class="card-footer">
-                <a href="https://www.google.com.br/maps/place/5%C2%B047'46.4%22S+35%C2%B013'14.8%22W/@-5.796533,-35.221117,16z/data=!4m5!3m4!1s0x0:0x0!8m2!3d-5.796234!4d-35.220773" onclick="javascript:return openExternalLink(this)" class="tab-link button button-big button-round" style="margin: 16px 0;">Ver mapa <i class="icon fa fa-globe"></i></a>
-              </div>
-          </div>
-          
-          <div class="card">
-              <div class="card-header">Loja 2</div>
-              <div class="card-content">
-                  <div class="card-content-inner" style="color: #333">
-                    <img src="img/aen_loja2.png" style="width: 100%" />
-                    Av. Romualdo Galvão, 1244 Lagoa Nova - Cep:59056-100 Natal-RN
-                    <span style="display: block; font-size: 20px"><i class="icon fa fa-phone"></i> (84) 3221-0606</span>
-                  </div>
-              </div>
-              <div class="card-footer">
-                <a href="https://www.google.com.br/maps?q=-5.813098,-35.2088&num=1&sll=-14.179186,-50.449219&sspn=44.419463,47.900391&hl=pt-BR&ie=UTF8&ll=-5.813141,-35.208821&spn=0.007173,0.008948&z=16&source=embed" onclick="javascript:return openExternalLink(this)" class="tab-link button button-big button-round" style="margin: 16px 0;">Ver mapa <i class="icon fa fa-globe"></i></a>
-              </div>
-          </div>
-          
-          <div class="card">
-              <div class="card-header">Loja 3</div>
-              <div class="card-content">
-                  <div class="card-content-inner" style="color: #333">
-                    <img src="img/aen_loja3.png" style="width: 100%" />
-                    Av. Cel. Estevam, 2162 Nazaré - Cep:59062-200 Natal-RN
-                    <span style="display: block; font-size: 20px"><i class="icon fa fa-phone"></i> (84) 3213-3481</span>
-                    
-                  </div>
-              </div>
-              <div class="card-footer">
-                <a href="https://www.google.com.br/maps?f=q&source=embed&hl=pt-BR&geocode&q=-5.813248,-35.230992&sll=-14.179186,-50.449219&sspn=55.15899,73.300781&ie=UTF8&ll=-5.813269,-35.230944&spn=0.006404,0.006437&z=16" onclick="javascript:return openExternalLink(this)" class="tab-link button button-big button-round" style="margin: 16px 0;">Ver mapa <i class="icon fa fa-globe"></i></a>
-              </div>
-          </div>
-          
-          <div class="card">
-              <div class="card-header">Loja 4</div>
-              <div class="card-content">
-                  <div class="card-content-inner" style="color: #333">
-                    <img src="img/aen_loja4.png" style="width: 100%" />
-                    Av. Piloto Pereira Tim, 2000 Centro - Cep:59140-001 Parnamirim-RN
-                    <span style="display: block; font-size: 20px"><i class="icon fa fa-phone"></i> (84) 3272-6144</span>
-                  </div>
-              </div>
-              <div class="card-footer">
-                <a href="https://www.google.com.br/maps?q=-5.919611,-35.264139&num=1&sll=-5.797365,-35.222061&sspn=0.007173,0.008948&ie=UTF8&ll=-5.919676,-35.264096&spn=0.003201,0.003219&z=17&source=embed" onclick="javascript:return openExternalLink(this)" class="tab-link button button-big button-round" style="margin: 16px 0;">Ver mapa <i class="icon fa fa-globe"></i></a>
-              </div>
-          </div>
-          
-          
-          
-        </div>  
-        
-      </div>
-    </div>
-  </div>
-  
-  
-
-  
-
- 
- 
- 
- <!-- TABS EXTRAS --> 
-  
-  
-
-  
-  <!-- Tab veiculo Pesquisa Resultado- View 2 -->
-  <div id="tabVeiculoResultado" class="view tab">
-    <div class="navbar" style="background-color:#FFF">
-      <div class="navbar-inner">
-        <div class="left"><a href="#tabVeiculo" class="tab-link" style="font-size: 28px; color:#000;"><i class="icon fa fa-arrow-circle-left"></i></a></div>
-        <div class="center">Resultado da pesquisa</div>
-      </div>
-    </div>
-    <div class="pages navbar-fixed">
-      <div data-page="home-3" class="page">
-        <div class="page-content">
-          
-          <div id="carregandoVeiculo" style="width: 100%; height: 100%; text-align: center; position: absolute; top: 0; left: 0; background-color: #fff; margin: 0; padding: 0; z-index: 3000">
-            <img src="img/icon_loading.gif" style="padding-top: 120px;" />
-          </div>
-          
-          <div class="row no-gutter" style="background-color: #f4f4f4; margin-top: 30px">
-              <div class="col-40" style="text-align: left" id="placa">Placa do Veículo</div>
-              <div class="col-60" style="text-align: left; font-weight: 700; text-transform: uppercase">RDA1020</div>
-          </div>
-          <div class="row no-gutter" style="background-color: #f4f4f4">
-              <div class="col-40" style="text-align: left">Loja</div>
-              <div class="col-60" style="text-align: left; font-weight: 700; text-transform: uppercase">Matriz</div>
-          </div>
-          
-          <div class="row no-gutter" style="background-color: #f4f4f4">
-              <div class="col-100" style="text-align: center; font-weight: 700; background-color: #666; color:#fff">EVOLUÇÃO DO SERVIÇO</div>
-          </div>
-          
-          <div class="row no-gutter">
-              <div class="col-40" style="text-align: left">17/08/2016 08:30</div>
-              <div class="col-60" style="text-align: left; font-weight: 700; text-transform: uppercase">Entrada</div>
-          </div>
-          <div class="row no-gutter">
-              <div class="col-40" style="text-align: left">17/08/2016 08:50</div>
-              <div class="col-60" style="text-align: left; font-weight: 700; text-transform: uppercase">Serviço em andamento</div>
-          </div>
-          <div class="row no-gutter">
-              <div class="col-40" style="text-align: left">17/08/2016 11:44</div>
-              <div class="col-60" style="text-align: left; font-weight: 700; text-transform: uppercase">Serviço concluído</div>
-          </div>
-          
-          <div class="row no-gutter">
-              <div class="col-100" style="text-align: left">
-              <p style="padding: 12px;">Qualquer dúvida ou informação entre em contato com a LOJA MATRIZ:<br /><br />
-              <span style="display: block; font-size: 20px; text-align: center; background-color: yellow; font-weight: 700"><i class="icon fa fa-phone"></i> (84) 3213-1949</span></p>  
-              </div>
-          </div>
-          
-          
-          
-
-      </div>
-        
-        
-      </div>
-    </div>
-  </div>
-  
-  
-
-  
-
-  
-  
-  
-  
-  <!-- Tab bar with tab links -->
-  <div class="toolbar tabbar" style="background-color:#E6410B;">
-    <div class="toolbar-inner" style=" padding: 2px 0">
-      <a href="#tabInicio" class="tab-link active">
-      <i class="icon fa fa-home" style="font-size: 18px; color: #fff; height: 18px; margin-bottom: 1px;"></i>
-      <span class="tabbar-label" style="font-size: 10px; color: #fff; margin:0;">Início</span>
-      </a>
-      <a href="#tabVeiculo" class="tab-link">
-      <i class="icon fa fa-car" style="font-size: 18px; color: #fff; height: 18px; margin-bottom: 1px;"></i>
-      <span class="tabbar-label" style="font-size: 10px; color: #fff; margin:0;">Veículo</span>
-      </a>
-      <a href="#tabServicos" class="tab-link">
-      <i class="icon fa fa-wrench" style="font-size: 18px; color: #fff; height: 18px; margin-bottom: 1px;"></i>
-      <span class="tabbar-label" style="font-size: 10px; color: #fff; margin:0;">Serviços</span>
-      </a>
-      <a href="#tabLojas" class="tab-link">
-      <i class="icon fa fa-map-o" style="font-size: 18px; color: #fff; height: 18px; margin-bottom: 1px;"></i>
-      <span class="tabbar-label" style="font-size: 10px; color: #fff; margin:0;">Lojas</span>
-      </a>
-    </div>
-  </div>
+  	
+  	<div class="content-wrap">
+     <header class="hero-area" id="home">
       
+      <div class="container">
+          <div class="col-md-12">
+
+            <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
+              <div class="container">
+                <div class="navbar-header">
+                  <a class="logo-left " href="index.html"><img src="img/rondanetbr_logo_web_200.png" class="logoimg"  /></a>
+                </div>
+                <div class="navbar-right">
+                  <button class="menu-icon"  id="open-button">
+                    <i class="mdi-navigation-menu"></i>
+                  </button>             
+                </div>
+              </div>
+            </div>
+        </div>        
+        <div class="contents text-right"><img src="img/rondanetbr_painel01.png" style="width: 60%; height: auto;"  />
+          <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Aplicativos para android e iphone</h1>
+          <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Sites modernos e customizados para todas plataformas</p>
+        </div>   
+    </header>
+
+    <section id="aplicativo" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="100ms">Precisando de um aplicativo?</h1>
+          <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Entre em contato e faça seu orçamento</h2>
+        </div>
+        <div class="row">
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="aplicativo">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="aplicativo-text">
+                <h4>Solicite um orçamento</h4>
+                <p>
+                  <a href="#footer" style="color:#666">Entre em contato e descreva um resumo de sua necessidade e retornaremos para mais detalhes <i class="fa fa-hand-o-left"></i></a>
+		</p>
+              </div>
+             </div>
+          </div>
 
 
-<!-- TABS end -->
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="aplicativo">
+              <div class="icon">
+                <i class="fa fa-usd"></i>
+              </div>
+              <div class="aplicativo-text">
+                <h4>Boa relação de qualidade e preço</h4>
+                <p>
+                  Custo escalonável, de acordo com a complexidade e recursos do aplicativo. 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="aplicativo">
+              <div class="icon">
+                <i class="fa fa-mobile"></i>
+              </div>
+              <div class="aplicativo-text">
+                <h4>Design</h4>
+                <p>
+                  Interface simples ou personalizada e de acordo com suas necessidades.
+                </p>
+              </div>
+            </div>
+          </div>            
+
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="aplicativo">
+              <div class="icon">
+                <i class="fa fa-share-alt"></i>
+              </div>
+              <div class="aplicativo-text">
+                <h4>Redes sociais</h4>
+                <p>
+                  Integração com as principais redes sociais: Facebook, Instagram, Twitter, Youtube, ...
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="aplicativo">
+              <div class="icon">
+                <i class="fa fa-android"></i>
+              </div>
+              <div class="aplicativo-text">
+                <h4>Android</h4>
+                <p>
+                  Aplicativo compatível com a plataforma Android. Publicamos seu aplicativo. <br />
+		  <img src="img/logo_google_play.png" style="max-width: 200px;" />
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="aplicativo">
+              <div class="icon">
+                <i class="fa fa-apple"></i>
+              </div>
+              <div class="aplicativo-text">
+                <h4>iPhone</h4>
+                <p>
+                  Aplicativo compatível com a plataforma iOS. Publicamos seu aplicativo.<br />
+		  <img src="img/logo_app_store.png" style="max-width: 200px;" />
+                </p>
+              </div>
+            </div>
+          </div>   
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section">
+      <div class="container">
+        
+        <div class="row">     
+
+          <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <img src="img/features/img1.png" alt="">
+          </div>
+
+          <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="pull-left content">
+              <h2>Você imagina, <br> nós criamos</h2>
+              <p>
+                Ajudamos você a desenvolver sua ideia. Preparamos protótipos de teste até chegarmos a versão final.<br>
+                Desenvolvemos seu aplicativo para Android e iOS, acessível em smartphones e tablets. <br>
+              </p>
+	      <h3>Público alvo</h3>
+              <ul class="list-item">
+                <li><i class="mdi-action-done"></i>Empreendedores</li>
+                <li><i class="mdi-action-done"></i>Empresas</li>
+                <li><i class="mdi-action-done"></i>Profissionais liberais</li>
+		<li><i class="mdi-action-done"></i>Público geral</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="website" style="padding: 80px 0">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="100ms">Precisando de um website?</h1>
+          <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Entre em contato e faça seu orçamento</h2>
+        </div> 
+        <div class="row">
+	  
+	  
+	  
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="aplicativo-content">
+              <div class="icon">
+                <i class="fa fa-code"></i>
+              </div>
+              <h3>Sites</h3>
+              <p>com os mais modernos recursos: programação com HTML5, CCS3, javascript, PHP, acesso à banco de dados MySql e outros.</p>
+            </div>
+          </div>
+	  
+	  
+	  
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="aplicativo-content">
+              <div class="icon">
+                <i class="fa fa-wordpress"></i>
+              </div>
+              <h3>Gerenciamento de informação</h3>
+              <p>com Wordpress, Joomla ou gerenciador personalizado.</p>
+            </div>
+          </div>
+	  
+	  
+	  
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="aplicativo-content">
+              <div class="icon">
+                <i class="mdi-file-cloud-queue"></i>
+              </div>
+              <h3>Designer e layout</h3>
+              <p>criados de forma personalizada. template baseados em Bootstrap e outros frameworks. Criação de logomarca e outras identificações, se necessário.</p>
+            </div>
+          </div>
+	  
+	  
+	  
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="aplicativo-content">
+              <div class="icon">
+                <i class="fa fa-bar-chart-o"></i>
+              </div>
+              <h3>Análise de tráfego de seu site</h3>
+              <p>com Google Analytics. Saiba quantos visitam seu site, origem, interesses e outras estatísticas.</p>
+            </div>
+          </div>
+	  
+	  
+	</div>
+	<div class="row">
+	  
+	  
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1200ms">
+            <div class="aplicativo-content">
+              <div class="icon">
+                <i class="fa fa-arrows-alt"></i>
+              </div>
+              <h3>Escala</h3>
+              <p>variável com o tamanho dos projeto, para profissionais liberais, empresas, público geral.</p>
+            </div>
+          </div>
+	  
+	  
+	  
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1400ms">
+            <div class="aplicativo-content">
+              <div class="icon">
+                <i class="fa fa-facebook-square"></i>
+              </div>
+              <h3>Network</h3>
+              <p>Integração com mídias sociais: Facebook, Twitter, Youtube, Whatsapp, Instagram e outras.</p>
+            </div>
+          </div>
+	  
+	  
+	  
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1600ms">
+            <div class="aplicativo-content">
+              <div class="icon">
+                <i class="mdi-social-person-outline"></i>
+              </div>
+              <h3>Suporte ao cliente</h3>
+              <p>via email, whatsapp, Hangout ou celular.</p>
+            </div>
+          </div>
+	  
+	  
+	  
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1800ms">
+            <div class="aplicativo-content">
+              <div class="icon">
+                <i class="mdi-action-settings-power"></i>
+              </div>
+              <h3>Segurança</h3>
+              <p>Desenvolvemos sites seguros, utilizando as últimas tecnologias disponíveis no mercado.</p>
+            </div>
+          </div>
+	  
+	  
+	  
+        </div>
+      
+    </section>
+
+
+     
 
 
 
+    <section id="footer">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <a class="social" href="https://www.facebook.com/rondanetbr/" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a class="social" href="https://twitter.com/rondanetbr" target="_blank"><i class="fa fa-twitter"></i></a>
+	      <a class="social" href="https://plus.google.com/114873202703222888999?hl=pt-BR" target="_blank"><i class="fa fa-google-plus"></i></a>
+            </div>
+	    <div class="col-md-6 col-sm-6 col-xs-12" style="text-align: right">
+              
+	      <span style="font-size: 22px; color:#fff">Contato <i class="fa fa-envelope"></i> ronaldo@ronda.net.br</span>
+	      
+            </div>
+          </div>
+        </div>  
+      </div>      
+      <!-- Go to Top Link -->
+      <a href="#home" class="btn btn-warning back-to-top">
+      <i class=" mdi-hardware-keyboard-arrow-up"></i>
+      </a>
+    </section> 
 
+    <section id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="copyright-text">
+             © rondanetbr 2016 Todos direitos reservados. Designed and Developed by 
+              <a href="http://www.ronda.net.br/">
+                <img src="img/rondanetbr_logo_web_200.png" style="max-width: 100px; height: auto" />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>     
+    </div>  
+		
 
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ripples.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.mmenu.min.all.js"></script> 
+    <script src="js/count-to.js"></script>   
+    <script src="js/jquery.inview.min.js"></script>     
+    <script src="js/classie.js"></script>
+    <script src="js/jquery.nav.js"></script>      
+    <script src="js/smooth-on-scroll.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/main.js"></script>
 
+    
 
+    <script>
+        $(document).ready(function() {
+            // This command is used to initialize some elements and make them work properly
+            $.material.init();
+        });
+    </script>
 
-
-      </div> <!-- Views end-->
-
-
-
-
-
-
-  
-  
-
-
-    <script type="text/javascript" src="cordova.js"></script>
-    <!-- Path to JQuery-->
-    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
-    <!-- Path to Framework7 Library JS-->
-    <script type="text/javascript" src="js/framework7.min.js"></script>
-    <!-- Path to your app js-->
-    <script type="text/javascript" src="js/app.js"></script>
   </body>
+
 </html>
